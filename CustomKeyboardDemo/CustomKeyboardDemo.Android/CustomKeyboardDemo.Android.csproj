@@ -116,8 +116,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CustomKeyboardView.cs" />
+    <Compile Include="KeyboardManager.cs" />
     <Compile Include="KeyboardPageRenderer.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MyEntry2.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -5,6 +5,9 @@
              x:Class="CustomKeyboardDemo.MainPage">
     <ContentPage.Content>
         <StackLayout>
+            <local:MyEntry 
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
             <Button 
                 x:Name="keyboardButton" 
                 Text="Custom Keyboard Page" 

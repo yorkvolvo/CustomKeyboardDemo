@@ -41,6 +41,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MyButton.cs" />
     <Compile Include="MyKeyboardPage.xaml.cs">
       <DependentUpon>MyKeyboardPage.xaml</DependentUpon>
     </Compile>

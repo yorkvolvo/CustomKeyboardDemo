@@ -22,7 +22,6 @@ namespace CustomKeyboardDemo.Droid
 {
     public class KeyboardPageRenderer : PageRenderer
     {
-
         public CustomKeyboardView mKeyboardView;
         public EditText mTargetView;
         public Android.InputMethodServices.Keyboard mKeyboard;
@@ -46,7 +45,7 @@ namespace CustomKeyboardDemo.Droid
             }
             catch (System.Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine(@"			ERROR: ", ex.Message);
+                System.Diagnostics.Debug.WriteLine("ERROR: ", ex.Message);
             }
         }
 
